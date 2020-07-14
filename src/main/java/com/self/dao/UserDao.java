@@ -13,4 +13,6 @@ public interface UserDao {
     List<User> findAll();
 
     User findById(Integer id);
+
+    Integer del(Integer id);
 }
